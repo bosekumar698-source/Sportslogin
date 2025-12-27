@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    top: 0;
+
+}
+
+.head1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    padding-top: 100px;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    padding-left: 100px;
+}
+
+a {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: red;
+}
+
+.img {
+    border-color: black;
+    border-style: solid;
+    margin-top: 100px;
+    height: 300px;
+    width: 275px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+.img:hover {
+    background-color: black;
+    color: white;
+}
+
+.welcome1 {
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.event {
+    height: 350px;
+    width: 1000px;
+    border-radius: 7px;
+}
+
+th {
+    height: 35px;
+    background-color: antiquewhite;
+}
+
+table {
+    margin-left: 180px;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+    height: 30px;
+    width: 700px;
+    padding-left: 300px;
+
+}
+
+.contact {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.form {
+    margin-top: 30px;
+}
+
+.form1 {
+    margin-left: 240px;
+}
+
+.form2 {
+    margin-left: 240px;
+}
+
+.form3 {
+    margin-left: 240px;
+}
+
+.form4 {
+    margin-left: 240px;
+}
+
+.button {
+    margin-left: 800px;
+    margin-top: 20px;
+    height: 30px;
+    width: 90px;
+}
+
+.button:hover {
+    background-color: green;
+}
+
+/* Modal style */
+
+.modal-overlay {
+  display: none;  /* Hidden by default */
+  position: fixed;  /* Stay on top of other content */
+  top: 0;
+  left: 0;
+  width: 100%;  /* Full screen width */
+  height: 100%;  /* Full screen height */
+  background: rgba(0, 0, 0, 0.5);  /* Semi-transparent black background */
+  z-index: 9998;  /* Ensure overlay is below modal */
+  backdrop-filter: blur(5px);  /* Apply blur effect to the background */
+}
+
+/* open modal */
+/* success modal */
+
+#modal {
+    flex-direction: column;
+    position: fixed; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    margin-top: 9px;
+    left: 40%;
+    padding: 15px;
+    height: 80px;
+    width: 220px;
+    border-radius: 20px;
+    border-color: lightgreen;
+}
+
+
+#modal p {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+/* close modal */
+/* error modal */
+#Notify {
+    margin-top: 10px;
+    margin-left: 40%;
+    padding: 15px;
+    height: 108px;
+    width: 240px;
+    border-radius: 20px;
+    border-color: red;
+     
+     z-index: 9999; /* Ensure modal is above overlay */
+}
+
+#Notify h3 {
+    margin-left: 10px;
+
+}
+
+#Notify p {
+    color: red;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#Notify button {
+    margin-top: 10px;
+    margin-left: 160px;
+    height: 22px;
+    width: 55px;
+    color: black;
+    background-color: red;
+}
+
+
+
+
+

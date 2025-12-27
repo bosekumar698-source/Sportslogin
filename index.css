@@ -1,0 +1,98 @@
+/* login page */
+
+.body {
+
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Centers the content horizontally */
+    align-items: center;
+    /* Centers the content vertically */
+    background-color: black;
+}
+
+.profile {
+
+    border-style: solid;
+    border-color: white;
+    width: 340px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.pic {
+    text-align: center;
+}
+
+.user {
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.user input {
+    width: 230px;
+    height: 28px;
+    border-radius: 8px;
+    margin-top: 5px;
+    border-style: outset;
+    border-color: rgb(45, 201, 201);
+    padding-left: 10px;
+
+}
+
+.pass {
+    margin-top: -20px;
+    padding: 15px;
+}
+
+.pass input {
+    width: 230px;
+    height: 28px;
+    border-radius: 8px;
+    margin-top: 5px;
+    border-style: outset;
+    border-color: rgb(45, 201, 201);
+    padding-left: 10px;
+
+}
+
+.btn {
+    margin-left: 14px;
+    height: 38px;
+    width: 85%;
+    margin-top: 1px;
+    border-radius: 10px;
+    border: 0;
+    background-color: lightseagreen;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.reg {
+    color: green;
+    text-decoration: none;
+}
+
+.reg:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+#modal1{ 
+   
+   text-align: center;
+    margin-top: 1px;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    overflow: hidden;
+}
+#modal1 p{
+    margin-top: 6px;
+    color: black;
+}
