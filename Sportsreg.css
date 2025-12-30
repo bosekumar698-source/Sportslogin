@@ -377,14 +377,14 @@ input[type="button"]:hover {
 /* error modal */
 
 #Notify {
-  left: 12%;
+  left: 8%;
   text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;
   padding: 15px;
-  height: 110px;
-  width: 260px;
+  height: 120px;
+  width: 300px;
   display: inline;
   border-radius: 20px;
   border-color: red;
@@ -409,5 +409,6 @@ input[type="button"]:hover {
   color: black;
   background-color: red;
 }
+
 
 
