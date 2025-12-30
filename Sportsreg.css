@@ -351,14 +351,14 @@ input[type="button"]:hover {
 
 /* open modal */
 /* success modal */
-
 #modal {
+  text-align: center;
   left: 55px;
   background-color: lightgreen;
   margin-top: 9px;
   padding: 15px;
-  height: 80px;
-  width: 220px;
+  height: 100px;
+  width: 250px;
   border-radius: 20px;
   border-color: lightgreen;
 }
@@ -383,9 +383,12 @@ input[type="button"]:hover {
   justify-content: center;
   display: flex;
   padding: 5px;
+  height: 110px;
+  width: 220px;
   display: inline;
   border-radius: 20px;
   border-color: red;
+  border: none;
   overflow: hidden;
   z-index: 9999;
   /* Ensure modal is above overlay */
@@ -409,7 +412,5 @@ input[type="button"]:hover {
   color: black;
   background-color: red;
 }
-
-
 
 
