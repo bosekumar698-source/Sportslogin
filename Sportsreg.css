@@ -239,7 +239,7 @@
     font-size: 12px; /* Further reduce font size for very small screens */
   }
 }
-@media (min-width: 375px) {
+@media (min-width: 425px) {
 
     /* Hide the image on mobile */
     .style {
@@ -248,7 +248,7 @@
 }
 
 /* General form styles */
-@media (max-width:320px ){
+@media (max-width:425px ){
 form {
   max-width: 600px;
   margin: 0 auto;
@@ -353,66 +353,58 @@ input[type="button"]:hover {
 /* success modal */
 
 #modal {
-    flex-direction: column;
-    position: fixed; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgreen;
-    margin-top: 9px;
-    left: 40%;
-    padding: 15px;
-    height: 80px;
-    width: 220px;
-    border-radius: 20px;
-    border-color: lightgreen;
+  left: 32px;
+  background-color: lightgreen;
+  margin-top: 9px;
+  padding: 15px;
+  height: 80px;
+  width: 220px;
+  border-radius: 20px;
+  border-color: lightgreen;
 }
 
 
 #modal p {
-    text-align: center;
-    color: black;
-    padding: 10px;
-    margin-top: 10px;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 
 
 /* close modal */
 /* error modal */
+
 #Notify {
-    margin-top: 10px;
-    margin-left: 40%;
-    padding: 15px;
-    height: 108px;
-    width: 240px;
-    border-radius: 20px;
-    border-color: red;
-     
-     z-index: 9999; /* Ensure modal is above overlay */
+  left: 40px;
+  padding: 5px;
+  display: inline;
+  border-radius: 20px;
+  border-color: red;
+  overflow: hidden;
+  z-index: 9999;
+  /* Ensure modal is above overlay */
 }
 
 #Notify h3 {
-    margin-left: 10px;
+  margin-left: 10px;
 
 }
 
 #Notify p {
-    color: red;
-    padding: 10px;
-    margin-top: 10px;
+  color: red;
+  margin-top: 10px;
 }
 
 #Notify button {
-    margin-top: 10px;
-    margin-left: 160px;
-    height: 22px;
-    width: 55px;
-    color: black;
-    background-color: red;
+  margin-top: 1px;
+  margin-left: 160px;
+  height: 34px;
+  width: 45px;
+  color: black;
+  background-color: red;
 }
-
-
 
 
 
