@@ -377,7 +377,7 @@ input[type="button"]:hover {
 /* error modal */
 
 #Notify {
-  left: 9%;
+  left: 10%;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -409,6 +409,7 @@ input[type="button"]:hover {
   color: black;
   background-color: red;
 }
+
 
 
 
