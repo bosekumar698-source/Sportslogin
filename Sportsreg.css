@@ -239,7 +239,7 @@
     font-size: 12px; /* Further reduce font size for very small screens */
   }
 }
-@media (min-width: 320px) {
+@media (min-width: 375px) {
 
     /* Hide the image on mobile */
     .style {
@@ -411,6 +411,7 @@ input[type="button"]:hover {
     color: black;
     background-color: red;
 }
+
 
 
 
