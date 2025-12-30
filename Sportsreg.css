@@ -357,8 +357,8 @@ input[type="button"]:hover {
   background-color: lightgreen;
   margin-top: 9px;
   padding: 15px;
-  height: 100px;
-  width: 250px;
+   height: 120px;
+  width: 260px;
   border-radius: 20px;
   border-color: lightgreen;
 }
@@ -412,5 +412,6 @@ input[type="button"]:hover {
   color: black;
   background-color: red;
 }
+
 
 
