@@ -353,7 +353,7 @@ input[type="button"]:hover {
 /* success modal */
 
 #modal {
-  left: 32px;
+  left: 55px;
   background-color: lightgreen;
   margin-top: 9px;
   padding: 15px;
@@ -377,7 +377,11 @@ input[type="button"]:hover {
 /* error modal */
 
 #Notify {
-  left: 40px;
+  left: 18%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   padding: 5px;
   display: inline;
   border-radius: 20px;
@@ -400,12 +404,11 @@ input[type="button"]:hover {
 #Notify button {
   margin-top: 1px;
   margin-left: 160px;
-  height: 34px;
+  height: 35px;
   width: 45px;
   color: black;
   background-color: red;
 }
-
 
 
 
