@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="Images/user.png">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body class="body">
+    <div class="profile">
+        <div class="pic">
+            <img src="Images/user.png" alt="LOGIN" height="100px" width="100px">
+        </div>
+        <h2 style="text-align: center;margin-top: -4px;">LOGIN</h2>
+
+        <!-- Error message container -->
+        <h4 id="error" style="text-align: center; margin-top: 5px; color: red;"></h4>
+
+        <form>
+            <div class="user">
+                <label style="color:cadetblue;" for="uname">USERNAME</label><br>
+                <input type="text" id="uname" placeholder="Enter username"><br><br>
+            </div>
+
+            <div class="pass">
+                <label style="color:cadetblue;" for="pswd">PASSWORD</label><br>
+                <input type="password" id="pswd" placeholder="Enter password"><br><br>
+            </div>
+
+            <input onclick="loginform()" class="btn" type="button" value="Login">
+
+            <h4 style="text-align: center;margin-top: 30px;">Don't have an account? <a class="reg"
+                    href="Create account.html">Create Account</a></h4>
+        </form>
+    </div>
+     <!-- Background Overlay
+            <div id="overlay" class="modal-overlay" style="display: none;"> -->
+
+                <!-- Modals -->
+                <div id="modal1" style="display: none;" popover="auto">
+                    <p>"Login Successful!"</p>
+                </div>
+</body>
+
+</html>
