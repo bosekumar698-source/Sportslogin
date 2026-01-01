@@ -1,0 +1,103 @@
+/* Create account*/
+.body1 {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Centers the content horizontally */
+    align-items: center;
+    /* Centers the content vertically */
+    background-color:lightgray;
+}
+
+.img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg1 {
+    border-style: solid;
+    border-color: white;
+    width: 350px;
+    height: 520px;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.h3 {
+    margin-top: -2px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: turquoise;
+}
+
+.name,
+.email,
+.pass1,
+.pass11 {
+    margin-top: -10px;
+    padding: 15px;
+}
+
+.name input,
+.email input,
+.pass1 input,
+.pass11 input {
+    width: 240px;
+    height: 33px;
+    border-radius: 8px;
+    margin-top: 5px;
+    border-style: outset;
+    border-color: rgb(45, 201, 201);
+    padding-left: 10px;
+}
+
+.create1 {
+    margin-left: 12px;
+    height: 38px;
+    width: 85%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+
+.here {
+    color: green;
+    text-decoration: none;
+
+}
+
+.here:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
+
+#modal2{ 
+   
+   text-align: center;
+    margin-top: 1px;
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    overflow: hidden;
+}
+#modal2 p{
+    margin-top: 6px;
+    color: black;
+}
+
+@media screen and (max-width: 425px) {
+
+    /* Hide the image on mobile */
+    .img1 {
+        display: none;
+    }
+}
